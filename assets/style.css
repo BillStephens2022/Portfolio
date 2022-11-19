@@ -144,10 +144,10 @@ a:link {
     color: white;
   }
 
-  a:hover {
-    color: lightgreen;
-  }
+a:hover {
+  color: lightgreen;
+}
 
-  a:visited {
-    color: white;
-  }
+a:visited {
+  color: white;
+}
