@@ -26,6 +26,10 @@
     <header>
         <img src="./assets/images/bill.jpeg"></img>
         <h1>Bill Stephens</h1>
+        
+        
+    </header>
+    <section class="navbar">
         <nav>
             <a href="#about-me">About Me</a>
             <a href="#portfolio">Portfolio</a>
@@ -33,8 +37,8 @@
             <a href="https://www.linkedin.com/in/bill-stephens-04375923/">LinkedIn</a>
             <a href="https://github.com/BillStephens2022?tab=repositories">GitHub</a>
         </nav>
-    </header>
-    <section id="about-me">
+    </section>
+    <section class="column" id="about-me">
         <h2>About Me</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
@@ -44,61 +48,71 @@
             sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
     </section>
-    <section id="work">
-    <h2 class="work-header" id="portfolio">My Portfolio of Work</h2>
-    <main class="container">
-        
-        <a href="https://dftgardenhose.github.io/DFTGH/index.html">
-            <section class="card">
-            
-                <h3 class="card-header"><i class="fa-solid fa-podcast"></i>Podcast<i class="fa-solid fa-podcast"></i></h3>
-                <p>This is a live deployed website that I built for a real Podcast using HTML, CSS, Bootstrap, Javascript, jQuery.
-                    Features some CSS and Javascript animations and event listeners to play sound clips when text is clicked.
-                    Also features a Bootstrap Carousel for testimonials.
-                </p>
-                <img src="./assets/images/podcast1.png" id="podcast" alt="podcast 1 image">
-                <img src="./assets/images/podcast2.png" id="podcast" alt="podcast 2 image">
-            </section>
-        </a>
-        <a href="https://billstephens2022.github.io/BillResume/">
-            <section class="card">
-            
-                <h3 class="card-header">Resumes</h3>
-                <p>This is a resume template I built using Bootstrap</p>
-                <img src="./assets/images/resume1.png" id="bill" alt="resume 1 image">
-                <img src="./assets/images/resume2.png" id="carolyn" alt="resume 2 image">
-            </section>
-        </a>
-        <a href="https://github.com/BillStephens2022/LagunaCafe">
-            <section class="card">
-            
-                <h3 class="card-header">Restaurants</h3>
-                <p>This is a sample restaurant website (not deployed) using React including image card carousels</p>
-                <img src="./assets/images/restaurant1.png" id="restaurant1" alt="retaurant 1 image">
-                <img src="./assets/images/restaurant2.png" id="restuarant2" alt="restaurant 2 image">
-            </section>
-        </a>
-        <a href="https://github.com/BillStephens2022/BillboardTop10">
-            <section class="card">
-            
-                <h3 class="card-header">Billboard Top 10</h3>
-                <p>This is a website that will pull in Top 10 Billboard songs from any date. Developed using Node.js and EJS templating.</p>
-                <img src="./assets/images/billboard1.png" id="billboard1" alt="billboard 1 image">
-                <img src="./assets/images/billboard2.png" id="billboard2" alt="billboard 2 image">
-            </section>
-        </a>
-        <a href="https://github.com/BillStephens2022/Emojipedia">
-            <section class="card">
-            
-                <h3 class="card-header">🤓 Emojipedia 🙏</h3>
-                <p>Emojipedia is a REACT app which displays cards with the emoji along with the description/definition.  </p>
-                <img src="./assets/images/emojipedia.png" id="emojipedia" alt="emojipedia image">
-            </section>
-        </a>
-        
-
-    </main>
-    </section>
     
+    <section id="work">
+        
+    <h2 class="work-header" id="portfolio">My Portfolio of Work</h2>
+    <main class="wrapper">
+        
+        <section class="column">
+            <a href="https://dftgardenhose.github.io/DFTGH/index.html">
+                <section class="card-large">
+                
+                    <h3 class="card-header"><i class="fa-solid fa-podcast"></i>Podcast<i class="fa-solid fa-podcast"></i></h3>
+                    <p>This is a live deployed website developed for a client's Podcast using HTML, CSS, Bootstrap, Javascript, jQuery.
+                        Features some CSS and Javascript animations and event listeners to play sound clips when text is clicked.
+                        Also features a Bootstrap Carousel for testimonials and embedded social media.
+                    </p>
+                    <img src="./assets/images/podcast1.png" id="podcast" alt="podcast 1 image">
+                    <img src="./assets/images/podcast2.png" id="podcast" alt="podcast 2 image">
+                </section>
+            </a>
+
+        </section>
+        <section class="column">
+            <a href="https://billstephens2022.github.io/BillResume/">
+                <section class="card">
+                
+                    <h3 class="card-header"><i class="fa-solid fa-file-pen"></i> Resumes <i class="fa-solid fa-file-pen"></i></h3>
+                    <p>Resume templates using Bootstrap</p>
+                    <img src="./assets/images/resume1.png" id="bill" alt="resume 1 image">
+                </section>
+            </a>
+            <a href="https://github.com/BillStephens2022/Emojipedia">
+                <section class="card">
+                
+                    <h3 class="card-header">🤓 Emojipedia 🙏</h3>
+                    <p>Emojipedia is a REACT app which displays cards with the emoji along with the description/definition.  </p>
+                    <img src="./assets/images/emojipedia.png" id="emojipedia" alt="emojipedia image">
+                </section>
+            </a>
+        </section>
+        <section class="column">
+            <a href="https://github.com/BillStephens2022/LagunaCafe">
+                <section class="card">
+                
+                    <h3 class="card-header"><i class="fa-solid fa-burger"></i> Restaurants <i class="fa-solid fa-burger"></i></h3>
+                    <p>This is a sample restaurant website (not deployed) using React including image card carousels</p>
+                    <img src="./assets/images/restaurant1.png" id="restaurant1" alt="retaurant 1 image">
+                    <img src="./assets/images/restaurant2.png" id="restuarant2" alt="restaurant 2 image">
+                </section>
+            </a>
+        </section>
+        <section class="column">
+            <a href="https://github.com/BillStephens2022/BillboardTop10">
+                <section class="card">
+                
+                    <h3 class="card-header"><i class="fa-solid fa-music"></i> Billboard Top 10 <i class="fa-solid fa-music"></i></h3>
+                    <p>This is a website that will pull in Top 10 Billboard songs from any date. Developed using Node.js and EJS templating.</p>
+                    <img src="./assets/images/billboard1.png" id="billboard1" alt="billboard 1 image">
+                    <img src="./assets/images/billboard2.png" id="billboard2" alt="billboard 2 image">
+                </section>
+            </a> 
+        </section>
+        
+        
+    </section>
+    </main>
+    </section> 
 </body>
 </html>
